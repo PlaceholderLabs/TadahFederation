@@ -1,6 +1,6 @@
 <p align="center"><img src="https://tadah.rocks/images/logos/full.png" alt="Tadah Logo"/></p>
 
-#Tadah User Federation PHP Api
+# Tadah User Federation PHP Api
 This api allows for 3rd-parties to login to their site using Tadah as a Home Server.
  
 This api is unofficial and might stop working randomly, but i will try to keep it working when i can.
