@@ -16,3 +16,12 @@ Before processing user credentials, the API will fetch a CSRF token by `GET`'ing
 Then is `POST`'ed user credentials along with the CSRF token.
 
 # Usage
+Login(username, password) - logs into Tadah and returns the user's info as an `Array`.
+
+# Example
+```
+<?php
+require('tadah_federation.php');
+$login = new tadah_federation();
+$login_result = $login->Login("yourTadahEmail@tadah.rocks", "TadahAccountPassword");
+echo "LOGIN RESULT: ".$login_result;
